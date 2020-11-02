@@ -1,23 +1,17 @@
-from typing import Any
+def addition(d1, d2):
+    return d1 + d2
 
+def subtraction(d1, d2):
+    return d1 - d2
 
-def addition(a, b):
-    return a + b
+def multiplication(d1, d2):
+    return d1 * d2
 
+def division(d1, d2):
+    return d1 / d2
 
-def subtraction(a, b):
-    return a - b
+def squareNumber(d1):
+    return d1 * d1
 
-class Calculator:
-    result = 0
-
-    def __init__(self):
-        pass
-
-    def add(self, a, b):
-        self.result = addition(a, b)
-        return self.result
-
-    def subtract(self, a, b):
-        self.result = subtraction(a, b)
-        return self.result
+def squareRoot(d1):
+    return d1**(1/2.0)
