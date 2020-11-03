@@ -1,14 +1,12 @@
 import unittest
-
+import csv
 from Calculator import Calculator
 
 
 class MyTestCase(unittest.TestCase):
+
     def setUp(self) -> None:
         self.calculator = Calculator()
-
-
-
 
     def test_instantiate_calculator(self):
         self.assertIsInstance(calculator, Calculator)
